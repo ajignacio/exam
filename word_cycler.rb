@@ -1,0 +1,2 @@
+class WordCycler
+end
