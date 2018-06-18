@@ -5,6 +5,19 @@ For all the words in the sentence output all `circular shifts` of the setence.
 Which is by repeatedly removing the first word and adding it to the end of the
 line.
 
+Initial Task:
+Please create the logic inside `word_cycler.rb` that will fulfil the tests that exist.
+You can run the tests with either:
+```rspec```
+OR
+```ruby test/*```
+
+You may choose which testing framework you like the most to continue working with the for extension
+challenges.
+
+If you do not want to work with ruby you may also take this same set of challenges and write it in
+whatever language you are most comfortable in working with.
+
 ## Challenges
 
 ```
