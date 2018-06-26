@@ -20,7 +20,7 @@ OR
 ```ruby test/*```
 
 And you are able to put debuggers in the tests with either:
-`Binding.pry`
+`binding.pry`
 
 You may choose which testing framework you like the most to continue working with the for extension
 challenges.
