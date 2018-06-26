@@ -19,7 +19,7 @@ You can run the tests with either:
 OR
 ```ruby test/*```
 
-And you are able to put debuggers in the tests with either:
+And you are able to put debuggers in the tests with:
 `binding.pry`
 
 You may choose which testing framework you like the most to continue working with the for extension
