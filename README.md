@@ -7,7 +7,7 @@ line.
 
 ```
 dependencies:
-ruby 2.5.0
+ruby
 ```
 ## Getting Started
 To get started you can simply run:
