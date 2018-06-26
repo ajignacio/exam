@@ -12,6 +12,18 @@ You can run the tests with either:
 OR
 ```ruby test/*```
 
+```
+dependencies:
+ruby >= 2.4.1
+
+minitest
+rspec
+
+minitest and rspec can be installed with:
+gem install minitest
+gem install rspec
+```
+
 You may choose which testing framework you like the most to continue working with the for extension
 challenges.
 
