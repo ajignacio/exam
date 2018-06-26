@@ -11,7 +11,11 @@ ruby 2.5.0
 ```
 ## Getting Started
 To get started you can simply run:
-`bundle`
+```
+gem install bundler
+bundle install
+```
+
 to install the required gems.
 
 You can run the tests with either:
