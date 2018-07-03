@@ -85,10 +85,10 @@ output with alphabetical ordering:
 ```
 output with the alphabetical word ordering:
 [
-  ['eht idnW Geno ihtw'],
-  ['Geno ihtw eht idnW'],
-  ['idnW Geno ihtw eht'],
-  ['ihtw eht idnW Geno']
+  ['eht dinw eGno hitw'],
+  ['eGno hitw eht dinw'],
+  ['dinw eGno hitw eht'],
+  ['hitw eht dinw eGno']
 ]
 ```
 
