@@ -48,13 +48,13 @@ The program outputs a listing of all circular shifts of all lines in alphabetica
 
 ```
 extension: 2
-order each lines words alphabetically
-and keep them in correct line ordering
+order each word alphabetically eg: word becomes dorw
+continue to order the sentences alphabetically.
 ```
 
 ```
 extension: 3
-Input is now multiple lines.
+Input is now multiple lines. (see the sample input for extension 3)
 ```
 
 ```
@@ -73,7 +73,7 @@ Sample Output:
 ```
 
 ```
-output with alphabetical ordering:
+output with alphabetical sentence ordering:
 [
   ['Gone with the Wind'],
   ['the Wind Gone with'],
@@ -83,11 +83,11 @@ output with alphabetical ordering:
 ```
 
 ```
-output with the alphabetical word ordering:
+output with the alphabetical word ordering and alphabetical sentence ordering:
 [
-  ['eht dinw eGno hitw'],
-  ['eGno hitw eht dinw'],
   ['dinw eGno hitw eht'],
+  ['eGno hitw eht dinw'],
+  ['eht dinw eGno hitw'],
   ['hitw eht dinw eGno']
 ]
 ```
