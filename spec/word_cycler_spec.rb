@@ -17,9 +17,9 @@ describe WordCycler do
       it 'produces an array of the variations' do
         expect(subject).to eq(
           [
-            ['Lorem ipsum Dolor'],
-            ['ipsum Dolor Lorem'],
-            ['Dolor Lorem ipsum']
+            'Lorem ipsum Dolor',
+            'ipsum Dolor Lorem',
+            'Dolor Lorem ipsum'
           ]
         )
       end

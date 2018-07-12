@@ -15,8 +15,12 @@ To get started you can simply run:
 gem install bundler
 bundle install
 ```
-
 to install the required gems.
+
+If you would like to run your code in a console please use:
+`bin/console`
+Which will give you a Pry console to work with.
+You may reload your console with `reload!`
 
 You can run the tests with either:
 ```rspec```
@@ -38,6 +42,9 @@ Please do not try to solve extension 1-3 all at once.
 
 ```
 Initial Task:
+For all the words in the sentence output all 'circular shifts' of the setence.
+Which is by repeatedly removing the first word and adding it to the end of the
+line.
 Please create the logic inside `word_cycler.rb` that will fulfil the existing tests.
 ```
 
@@ -65,30 +72,30 @@ Sample Input:
 ```
 Sample Output:
 [
-  ['Gone with the Wind'],
-  ['with the Wind Gone'],
-  ['the Wind Gone with'],
-  ['Wind Gone with the']
+  'Gone with the Wind',
+  'with the Wind Gone',
+  'the Wind Gone with',
+  'Wind Gone with the'
 ]
 ```
 
 ```
 output with alphabetical sentence ordering:
 [
-  ['Gone with the Wind'],
-  ['the Wind Gone with'],
-  ['Wind Gone with the'],
-  ['with the Wind Gone']
+  'Gone with the Wind',
+  'the Wind Gone with',
+  'Wind Gone with the',
+  'with the Wind Gone'
 ]
 ```
 
 ```
 output with the alphabetical word ordering and alphabetical sentence ordering:
 [
-  ['dinw eGno hitw eht'],
-  ['eGno hitw eht dinw'],
-  ['eht dinw eGno hitw'],
-  ['hitw eht dinw eGno']
+  'dinw eGno hitw eht',
+  'eGno hitw eht dinw',
+  'eht dinw eGno hitw',
+  'hitw eht dinw eGno'
 ]
 ```
 
