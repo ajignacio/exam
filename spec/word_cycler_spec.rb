@@ -8,7 +8,7 @@ describe WordCycler do
     context 'with a single word string' do
       let(:string) { 'lorem' }
 
-      it { is_expected.to eq([['lorem']]) }
+      it { is_expected.to eq(['lorem']) }
     end
 
     context 'with a multi word string' do
