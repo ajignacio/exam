@@ -102,7 +102,7 @@ output with the alphabetical word ordering and alphabetical sentence ordering:
 ```
 Extension 3 sample input:
 [
-  'Gone with the wind',
+  'Gone with the Wind',
   'Eye of the storm',
   'Lorem ipsum dolor sit amet consectetur adipiscing elit Nam eget arcu in mi lobortis rhoncus at id magna Ut sed nibh quis nulla finibus sodales ac a tortor Donec dui erat imperdiet non posuere id varius at augue Maecenas ultricies viverra odio eu dapibus urna lobortis in Vestibulum eleifend laoreet justo quis luctus metus porttitor eu Curabitur vestibulum sollicitudin tristique Quisque cursus urna non enim dignissim ornare Donec sit amet nibh in lectus accumsan cursus in nec risus Donec facilisis est a auctor congue velit dui pellentesque metus at imperdiet risus sem in libero Fusce pharetra at libero ut convallis'
 ]
