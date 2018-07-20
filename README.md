@@ -92,10 +92,10 @@ output with alphabetical sentence ordering:
 ```
 output with the alphabetical word ordering and alphabetical sentence ordering:
 [
-  'dinw eGno hitw eht',
-  'eGno hitw eht dinw',
-  'eht dinw eGno hitw',
-  'hitw eht dinw eGno'
+  'dinW eGno hitw eht',
+  'eGno hitw eht dinW',
+  'eht dinW eGno hitw',
+  'hitw eht dinW eGno'
 ]
 ```
 
