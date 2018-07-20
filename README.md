@@ -1,7 +1,7 @@
 # Circular Sentences
 
 Write a program that accepts a line of words.
-For all the words in the sentence output all `circular shifts` of the setence.
+For all the words in the sentence output all `circular shifts` of the sentence.
 Which is by repeatedly removing the first word and adding it to the end of the
 line.
 
@@ -42,7 +42,7 @@ Please do not try to solve extension 1-3 all at once.
 
 ```
 Initial Task:
-For all the words in the sentence output all 'circular shifts' of the setence.
+For all the words in the sentence output all 'circular shifts' of the sentence.
 Which is by repeatedly removing the first word and adding it to the end of the
 line.
 Please create the logic inside `word_cycler.rb` that will fulfil the existing tests.
