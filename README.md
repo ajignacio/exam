@@ -40,28 +40,12 @@ whatever language you are most comfortable in working with.
 Start with the initial task and then let the code grow.
 Please do not try to solve extension 1-3 all at once.
 
+### Initial Task
 ```
-Initial Task:
 For all the words in the sentence output all 'circular shifts' of the sentence.
 Which is by repeatedly removing the first word and adding it to the end of the
 line.
 Please create the logic inside `word_cycler.rb` that will fulfil the existing tests.
-```
-
-```
-extension: 1
-The program outputs a listing of all circular shifts of all lines in alphabetical order
-```
-
-```
-extension: 2
-order each word alphabetically eg: word becomes dorw
-continue to order the sentences alphabetically.
-```
-
-```
-extension: 3
-Input is now multiple lines. (see the sample input for extension 3)
 ```
 
 ```
@@ -79,8 +63,15 @@ Sample Output:
 ]
 ```
 
+### Extension 1
+
+
 ```
-output with alphabetical sentence ordering:
+The program outputs a listing of all circular shifts of all lines in alphabetical order
+```
+
+```
+SAMPLE OUTPUT:
 [
   'Gone with the Wind',
   'the Wind Gone with',
@@ -88,9 +79,15 @@ output with alphabetical sentence ordering:
   'with the Wind Gone'
 ]
 ```
+### Extension 2
 
 ```
-output with the alphabetical word ordering and alphabetical sentence ordering:
+Order each word alphabetically eg: word becomes dorw
+continue to order the sentences alphabetically.
+```
+
+```
+SAMPLE OUTPUT:
 [
   'dinW eGno hitw eht',
   'eGno hitw eht dinW',
@@ -99,8 +96,12 @@ output with the alphabetical word ordering and alphabetical sentence ordering:
 ]
 ```
 
+### Extension 3
 ```
-Extension 3 sample input:
+Input is multi array.
+```
+```
+SAMPLE INPUT:
 [
   'Gone with the Wind',
   'Eye of the storm',
