@@ -25,4 +25,27 @@ describe WordCycler do
       end
     end
   end
+  
+  #alpha_reverse
+  describe '#alpha_reverse' do
+    subject { WordCycler.new.alpha_reverse(string) }
+
+    context 'with a multi word string' do
+      let(:string) { 'Gone with the Wind' }
+
+      it 'produces an array of the variations' do
+        expect(subject).to eq(
+          [
+            "dinW eGno hitw eht", 
+            "eGno hitw eht dinW", 
+            "eht dinW eGno hitw", 
+            "hitw eht dinW eGno"
+          ] 
+        )
+      end
+    end
+  end
+  
+  
+  
 end
